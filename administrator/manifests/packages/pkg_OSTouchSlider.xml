@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.2" method="upgrade">
+<name>OS Touch Slider PKG Pro</name>
+<author>www.ordasoft.com /Roman Akoev(akoevroman@gmail.com),Andrey Kvasnevskiy(akbet@mail.ru),Buchastiy Sergey(buchastiy1989@gmail.com)</author>
+<authorEmail>support@ordasoft.com</authorEmail>
+<creationDate>March 2020</creationDate>
+<copyright>OrdaSoft</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<license>GNU General Public License version 2 or later</license>
+<packagename>OS Touch Slider</packagename>
+<version>5.1.6 Light</version>
+<url>http://ordasoft.com/os-touch-slider-joomla-responsive-slideshow</url>
+<description><![CDATA[<img style="width:515px; display: block; margin: 0 auto;" src="../modules/mod_os_touchslider/assets/images/os_touch_installation_image.png">]]></description>
+<files folder="packages">
+    <folder type="module" id="mod_os_touchslider" client="site">mod_OS_TouchSlider_light</folder>
+    <folder type="plugin" id="plg_os_touchslider" group="ajax">plg_os_touchslider</folder>
+</files>
+<updateservers>
+    <server type="extension" priority="1" name="OS TouchSlider Update">http://ordasoft.com/xml_update/ostouchslider_update.xml</server>
+  </updateservers>
+</extension>

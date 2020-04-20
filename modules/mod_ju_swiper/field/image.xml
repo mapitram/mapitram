@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="image_modal" class="image-subform">
+		<field name="ol_image" type="media" default="" label="Slider Image"  description="Choose an image..." size="30" />
+		<field name="ol_title" type="text" size="100" default="" label="First line text" description="First line text" />
+		<field name="ol_text" type="text" size="100" default="" label="Second line text" description="Second line text" />
+		<field name="ol_target_url" type="text" default="" label="Read more link" description="Link for read more button" published="1"/>
+		<field name="readmore" type="text" default="Read More" label="Read more text" description="Write here the text for read more button" />	
+	</fieldset>
+</form>

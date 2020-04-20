@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Swiper Slider Module</name>
+	<author>joomla2you</author>
+	<creationDate>Jan, 2018</creationDate>
+	<copyright>Copyright (C) http://www.joomla2you.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joomla2you.com</authorEmail>
+	<authorUrl>www.joomla2you.com</authorUrl>
+	<version>1.0.5</version>
+	<description>
+	<![CDATA[<link href="../modules/mod_ju_swiper/field/css/admin.css" rel="stylesheet" type="text/css" media="all" />
+		<h1>Swiper Slider module</h1>
+	<div style="margin:0 0 0 10px; font-size:15px;">Swiper Slider module from <a href="http://www.joomla2you.com" target="_blank">joomla2you.com</a>Based in script <a href="https://idangero.us/swiper/" target="_blank">Swiper</a></div>
+	<h3>Userful links</h3>
+	<ul><li><a target='_blank' href='https://www.joomla2you.com/joomla-templates'>Joomla templates</a></li>
+	<li><a target='_blank' href='https://www.joomla2you.com/extensions'>Joomla extensions</a></li>
+	<li><a target='_blank' href='https://www.joomla2you.com/contact'>Report bug</a></li></ul>
+	]]></description>
+
+	<files>
+		<filename module="mod_ju_swiper">mod_ju_swiper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_ju_swiper.xml</filename>
+		<folder>assets</folder>
+		<folder>field</folder>
+		<folder>tmpl</folder>
+	</files>
+
+   <updateservers>
+      <server type="extension" priority="1" name="Swiper Slider">https://www.joomla2you.com/updates/mod_ju_swiper.xml</server>
+   </updateservers>
+   
+	<config>
+		<fields name="params">
+			<fieldset name="slider" label="Slider items">
+				<field name="slider_items" type="subform" formsource="modules/mod_ju_swiper/field/image.xml" class="advancedSelect" min="1" max="50" multiple="true" layout="joomla.form.field.subform.repeatable" groupByFieldset="true" label="Items(s)" description="Add items(s) to display in slider" />
+			</fieldset>
+			
+			<fieldset name="settings" label="Slider Settings">
+				<!-- Basic settings -->
+				
+				<field name="sdelay" type="list" default="5000" label="Slider Time" description="Time betwin slides">
+					<option value="1000">1 sec</option>
+					<option value="2000">2 sec</option>
+					<option value="3000">3 sec</option>
+					<option value="4000">4 sec</option>
+					<option value="5000">5 sec</option>
+					<option value="6000">6 sec</option>
+					<option value="7000">7 sec</option>
+					<option value="8000">8 sec</option>
+					<option value="9000">9 sec</option>
+					<option value="10000">10 sec</option>
+					<option value="11000">11 sec</option>
+					<option value="12000">12 sec</option>
+					<option value="13000">13 sec</option>
+					<option value="14000">14 sec</option>
+					<option value="15000">15 sec</option>
+				</field>				
+				<field name="sspeed" type="list" default="1000" label="Effect speed" description="Effect speed">
+					<option value="100">0.1 sec</option>
+					<option value="500">0.5 sec</option>
+					<option value="1000">1 sec</option>
+					<option value="1500">1.5 sec</option>
+					<option value="2000">2 sec</option>
+					<option value="2500">2.5 sec</option>
+					<option value="3000">3 sec</option>
+					<option value="3500">3.5 sec</option>
+					<option value="4000">4 sec</option>
+				</field>									
+				
+				<field name="interlOffset" type="list" default="0.5" label="Inter leave Offset" description="Slides taking over">
+					<option value="0.1">0.1</option>
+					<option value="0.2">0.2</option>
+					<option value="0.3">0.3</option>
+					<option value="0.4">0.4</option>
+					<option value="0.5">0.5</option>
+					<option value="0.6">0.6</option>
+					<option value="0.7">0.7</option>
+					<option value="0.8">0.8</option>
+					<option value="0.9">0.9</option>
+					<option value="1">1</option>
+					<option value="1.1">1.1</option>
+					<option value="1.2">1.2</option>
+					<option value="1.3">1.3</option>
+					<option value="1.4">1.4</option>
+					<option value="1.5">1.5</option>
+					<option value="1.6">1.6</option>
+					<option value="1.7">1.7</option>
+					<option value="1.8">1.8</option>
+					<option value="1.9">1.9</option>
+				</field>
+				<field name="seffect" type="list" default="" label="Effect" description="Effect">
+					<option value="">none</option>
+					<option value="fade">fade</option>
+					<option value="cube">cube</option>
+					<option value="coverflow">coverflow</option>
+					<option value="flip">flip</option>
+				</field>			
+			</fieldset>
+			
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+    <name>dd_horseclub_53</name>
+    <creationDate>2014-12-03</creationDate>
+    <version>1.0</version>
+    <author>www.diablodesign.eu</author>
+    <authorUrl>http://www.diablodesign.eu</authorUrl>
+     <description>
+	<![CDATA[
+	<div class="dd-description clearfix">
+		<div class="pull-left" style="max-width: 35.69%;">
+			<img style="max-width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; padding: 10px; background: #fff; border: 1px solid #e1e1e1;" src="../templates/dd_horseclub_53/images/scr.jpg" />
+		
+		</div>
+		<div class="pull-left" style="max-width: 64.31%; box-sizing: border-box; -webkit-box-sizing: border-box; padding: 0 30px;">
+			<div style="margin-bottom: 20px;">
+				<div style="margin-bottom: 20px;">
+				<a style="text-decoration: none !important; display: block; outline: none;" target="_blank" href="http://www.diablodesign.eu/">
+					<img src="http://diablodesign.eu/images/diabloxml.png" />
+				</a>
+			
+				
+				<span style="color: #a0a0a0; display: block; margin-top: 2px;"><li>Not for commercial!!! for commercial use, you must pay a special license (10 EURO)</li></span>
+				
+				
+				<span style="color: #a0a0a0; display: block; margin-top: 2px; font-size:12px;"><li><b>Why buy a license?</b><p>
+
+It allows you to remove ALL links to DiabloDesign.eu from your web site.
+
+Licensed Diablodedesign sites can also update their template (and remove the links to their website) with any of our current or future designs released.
+
+<li>Prior to purchasing a license, it is expected that you have fully tested our templates to ensure they meet your requirements.</li></span>
+<span style="color: #ff0000; display: block; margin-top: 2px;"><li>Szablonu nie można używać na stonach firmowych!!! Licencja dla stron firmowych kosztuje. (40PLN Brutto). Konto i dane do przelewu podane są na naszej stronie internetowej <a style="font-size: 15px; color: #3ea5ea;" target="_blank" href="http://www.diablodesign.eu">www.diablodesign.eu</a></li></span>
+				<div style="margin: 20px 0 0;">
+					<a style="text-decoration: none !important; outline: none;" target="_blank" href="http://www.diablodesign.eu#">
+						<img src="http://diablodesign.eu/images/paypal.gif" />
+					</a>
+					<a href="http://www.diablodesign.eu" target="_blank" style="margin: 0 20px; color: #3ea5ea;">Buy Commercial license AMOUNT 10 €</a>
+				</div>
+			</div>
+		
+			</div>
+			<div style="margin: 0 -20px;">
+				<div style="display: inline-block; margin: 0 20px 20px;">
+					<span style="display: block; color: #a0a0a0;">Free Templates for Joomla!</span>
+					<a style="font-size: 15px; color: #3ea5ea;" target="_blank" href="http://www.diablodesign.eu">www.diablodesign.eu</a>
+				</div>
+				<div style="display: inline-block; margin: 0 20px 20px;">
+					<span style="display: block; color: #a0a0a0;">Free Extensions for Joomla!</span>
+					<a style="font-size: 15px; color: #3ea5ea;" target="_blank" href="http://www.jomboom.com">www.jomboom.com</a>
+				</div>
+				<div style="display: inline-block; margin: 0 20px 20px;">
+					<span style="display: block; color: #a0a0a0;">Webmaster Tools</span>
+					<a style="font-size: 15px; color: #3ea5ea;" target="_blank" href="http://www.webtols.com">www.webtols.com</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	]]>
+	</description> 
+    <files>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>language</folder>
+        <folder>library</folder>
+		<folder>js</folder>
+		<folder>inc</folder>
+        <file>component.php</file>
+        <file>favicon.ico</file>
+        <file>functions.php</file>
+        <file>index.html</file>
+        <file>index.php</file>
+        <file>templateDetails.xml</file>
+     
+    </files>
+    <positions>
+        <position>debug</position>
+        <position>position-1</position>
+        <position>position-2</position>
+        <position>position-3</position>
+        <position>position-4</position>
+        <position>position-5</position>
+        <position>position-6</position>
+        <position>position-7</position>
+        <position>position-8</position>
+        <position>position-9</position>
+        <position>position-10</position>
+        <position>position-11</position>
+        <position>position-12</position>
+        <position>position-15</position>
+        <position>position-16</position>
+        <position>position-17</position>
+        <position>position-18</position>
+        <position>position-19</position>
+        <position>position-20</position>
+        <position>position-21</position>
+        <position>position-22</position>
+        <position>position-23</position>
+        <position>position-24</position>
+        <position>position-25</position>
+        <position>position-26</position>
+        <position>position-27</position>
+        <position>position-28</position>
+        <position>position-29</position>
+        <position>position-30</position>
+    </positions>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+			<field name="license" type="text" default="License Number" size="50" label="License Number" description="License Number"/>
+                <field name="siteTitle" type="text" size="50" label="TPL_SITE_TITLE" description="TPL_SITE_TITLE_DESCRIPTION"/>
+                <field name="siteSlogan" type="text" size="50" label="TPL_SITE_SLOGAN" description="TPL_SITE_SLOGAN_DESCRIPTION"/>
+            </fieldset>
+				 <!--logo-->
+			 <fieldset name="logo" label="Logo"><field name="logo" type="media" label="Select image " description="Logo" default="templates/dd_horseclub_53/images/logo.png"/>
+			 	<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Disabled logo! / wyłącz logo !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="logoc" type="list" default="1" label="" description="test">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+				</fieldset>
+					<!--social-->
+			<fieldset name="social" label="Social icon">	
+			
+			<field name="facebook" type="text" default="http://facebook.com" label="Facebok url:" description="facebok link" filter="string" />
+				<field name="fc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+            <field name="twitter" type="text" default="http://twiiter.com" label="Twitter url:" description="Twitter link" filter="string" />
+				<field name="tc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+            <field name="youtube" type="text" default="http://youtube.com" label="Youtube url:" description="Youtube link" filter="string" />
+				<field name="yc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			<field name="google" type="text" default="http://google.com" label="Google+ url:" description="Google+ link" filter="string" />
+				<field name="gc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+		<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Disable all social icon / wyłącz wszytskie ikony!&lt;/b&gt;&lt;/a&gt;" />
+				<field name="allic" type="radio" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			
+			
+			</fieldset>
+			<!--animcja-->
+				<fieldset name="animacja" label="Slideshow">
+					<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Rozmiar fotografi musi wynosić 1060px na 358px !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Size photo must be 1060px to 358px! !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="foto1" type="media" label="Upload foto 1" description="" default="templates/dd_horseclub_53/images/slideshow/1.jpg"/>
+			<field name="foto2" type="media" label="Upload foto 2" description="" default="templates/dd_horseclub_53/images/slideshow/2.jpg"/>
+			<field name="foto3" type="media" label="Upload foto 3" description="" default="templates/dd_horseclub_53/images/slideshow/3.jpg"/>
+			<field name="foto4" type="media" label="Upload foto 4" description="" default="templates/dd_horseclub_53/images/slideshow/4.jpg"/>
+			<field name="foto5" type="media" label="Upload foto 5" description="" default="templates/dd_horseclub_53/images/slideshow/5.jpg"/>
+			
+			</fieldset>
+			<!--Header board-->
+			 <fieldset name="board" label="Header Board">
+                <field name="title" type="text" size="50" default="Board title" label="Board Title" description="Board Title"/>
+     <field name="text" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " rows="8" cols="60"  label="Text" description="info text " />
+	 <field name="buttontitle" type="text" size="50" default="Read More" label="button Title" description="button Title"/>
+	 <field name="linktitle" type="text" size="50" default="http://" label="button Link" description="button link"/>
+	 	<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Disable board header / wyłącz drewnianą tablicę w nagłowku!&lt;/b&gt;&lt;/a&gt;" />
+		<field name="boardc" type="list" default="1" label="" description="">
+		
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+            </fieldset>
+			<!--hover gallery-->
+				<fieldset name="Gallery" label="Hover Gallery">
+					<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Rozmiar fotografi musi wynosić 229px na 200px !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Size photo must be 229px to 200px! !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="foto6" type="media" label="Upload foto 1" description="" default="templates/dd_horseclub_53/images/gallery/1.jpg"/>
+			<field name="title6" type="text" default="Title 1" size="50" label="Title" description="Title hover image"/>
+				<field name="text6" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " rows="8" cols="60"  label="Text" description="info text " />
+				<field name="button6" type="text" default="Read More" size="50" label="Title button" description="Title button"/>
+				<field name="link6" type="text" default="http://" size="50" label="Link button" description="Link button"/>
+				
+				
+				
+			<field name="foto7" type="media" label="Upload foto 2" description="" default="templates/dd_horseclub_53/images/gallery/2.jpg"/>
+			
+				<field name="title7" type="text" default="Title 2" size="50" label="Title" description="Title hover image"/>
+				<field name="text7" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " rows="8" cols="60"  label="Text" description="info text " />
+				<field name="button7" type="text" default="Read More" size="50" label="Title button" description="Title button"/>
+				<field name="link7" type="text" default="http://" size="50" label="Link button" description="Link button"/>
+			
+			<field name="foto8" type="media" label="Upload foto 3" description="" default="templates/dd_horseclub_53/images/gallery/3.jpg"/>
+			
+			<field name="title8" type="text" default="Title 3" size="50" label="Title" description="Title hover image"/>
+				<field name="text8" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " rows="8" cols="60"  label="Text" description="info text " />
+				<field name="button8" type="text" default="Read More" size="50" label="Title button" description="Title button"/>
+				<field name="link8" type="text" default="http://" size="50" label="Link button" description="Link button"/>
+			
+			<field name="foto9" type="media" label="Upload foto 4" description="" default="templates/dd_horseclub_53/images/gallery/4.jpg"/>
+			<field name="title9" type="text" default="Title 4" size="50" label="Title" description="Title hover image"/>
+				<field name="text9" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " rows="8" cols="60"  label="Text" description="info text " />
+				<field name="button9" type="text" default="Read More" size="50" label="Title button" description="Title button"/>
+				<field name="link9" type="text" default="http://" size="50" label="Link button" description="Link button"/>
+			<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Disabled four images! / wyłącz cztery fotogafie pod nagłówkiem !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="galleryc" type="list" default="1" label="" description="test">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+				
+			</fieldset>		
+			<!--footer-->
+						<fieldset name="footer" label="Footer">       
+                       <field name="footer" type="text" default="Horse Club" size="50" label="Site name" description="footer site name"/>
+</fieldset>		
+        </fields>
+    </config>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_dd_horseclub_53.ini</language>
+    </languages>
+</extension>
